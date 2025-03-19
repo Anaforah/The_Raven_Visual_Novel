@@ -1,0 +1,107 @@
+{
+    "Cena8":[
+ {
+     "type":2
+},
+{
+   "background":{
+              "link1":"videos/busto_background_corvo2.mp4",
+              "link2":"videos/janela_background.mp4",
+              "link3":"videos/janela_background_sprite6.mp4"
+          }
+},
+ {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Nevermore."
+                }
+            ]  
+        }
+    },
+    {
+       "narra":{
+          "frase":[
+              {
+                  "N1":"Startled at the stillness<br> broken by reply so aptly spoken,"
+              }
+          ]
+      }
+    },
+    {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Doubtless, what it utters<br> is its only stock and store"
+                },
+                {
+                    "N2":"Caught from some unhappy master <br>whom unmerciful Disaster"
+                },
+                {
+                    "N3":"Followed fast and followed faster <br>till his songs one burden bore—"
+                },
+                {
+                    "N4":"Till the dirges of his Hope <br>that melancholy burden bore"
+                },
+                {
+                    "N5":"Of ‘Never—nevermore’."
+                },
+                {
+                    "N6":"Wretch,"
+                },
+                {
+                    "N7":"thy God hath lent thee—by these angels<br> he hath sent thee respite"
+                },
+                {
+                    "N8":"Respite and nepenthe<br> from thy memories of Lenore"
+                },
+                {
+                    "N9":"Quaff, oh quaff this kind nepenthe<br> and forget this lost Lenore!"
+                }
+            ]  
+        }
+    },
+    {
+        "Opcao":{
+            "escolha":[
+                {
+                    "Esc1":"Reply to him."
+                }
+            ]
+    }
+    },
+   {
+    "audio":{
+        "faxa":[
+            {
+                "link1":"voices/cena8/voice22.mp3"
+            },
+            {
+                "link2":"voices/cena8/voice23.mp3"
+            },
+            {
+                "link3":"voices/cena8/voice24.mp3"
+            },
+            {
+                "link4":"voices/cena8/voice25.mp3"
+            },
+            {
+                "link5":"voices/cena8/voice26.mp3"
+            },
+            {
+                "link6":"voices/cena8/voice27.mp3"
+            },
+            {
+                "link7":"voices/cena8/voice28.mp3"
+            },
+            {
+                "link8":"voices/cena8/voice29.mp3"
+            },
+            {
+                "link9":"voices/cena8/voice30.mp3"
+            }
+        ]
+    }
+}
+]
+}

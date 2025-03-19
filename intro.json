@@ -1,0 +1,29 @@
+{
+    "intro": [
+      { "type": 0 },
+      {
+        "background": {
+          "link": "videos/frame1.mp4"
+        }
+      },
+      {
+        "narra": {
+          "frase": [
+            { "N1": "Once upon a midnight dreary,<br> as you fluttered, light and weary," },
+            { "N2": "over a quaint and curious forgotten home," },
+            { "N3": "you felt yourself lulled by the sad,<br> uncertain rustle of silken curtains." },
+            { "N4": "Whatever could lay hidden behind them?" }
+          ]
+        }
+      }
+    ],
+    "inter": {
+      "array1": [
+        { "link": "Images/Corvo.png" },
+        { "link": "Images/Corvo2.png" }
+      ],
+      "titulo": [
+        {"link": "Images/titulo.png"}
+      ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Cena7":[
+ {
+     "type":2
+},
+{
+   "background":{
+                "link1":"videos/busto_background_corvo1.mp4",
+                "link2":"videos/busto_background_corvo1.mp4",
+                "link3":"videos/janela_background_sprite1.mp4"
+          }
+},
+ {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"..."
+                },
+                {
+                    "N2":"Nevermore."
+                }
+            ]  
+        }
+    },
+    {
+       "narra":{
+          "frase":[
+              {
+                  "N1":"Much he marvelled you, <br>an ungainly fowl,"
+              },
+              {
+                  "N2":"unusual to hear <br>discourse so plainly,"
+              },
+              {
+                  "N3":"Though your answer<br> little meaning—little relevancy bore."
+              },
+              {
+                  "N4":"For most cannot help agreeing<br> that no living human being"
+              },
+              {
+                  "N5":"Ever yet was blessed<br> with seeing bird above his chamber door—"
+              },
+              {
+                  "N6":"Bird or beast upon the sculptured bust<br> above his chamber door,"
+              },
+              {
+                  "N7":"With such name as “Nevermore.”"
+              }
+          ]
+      }
+    },
+    {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Other friends have flown before—"
+                },
+                {
+                    "N2":"On the morrow it will leave me, <br>as my Hopes have flown before."
+                }
+            ]  
+        }
+    },
+    {
+        "Opcao":{
+            "escolha":[
+                {
+                    "Esc1":"Reply to him."
+                }
+            ]
+    }
+    },
+   {
+    "audio":{
+        "faxa":[
+            {
+                "link1":"voices/cena7/voice20.mp3"
+            },
+            {
+                "link2":"voices/cena7/voice21.mp3"
+            }
+        ]
+    }
+}
+]
+}

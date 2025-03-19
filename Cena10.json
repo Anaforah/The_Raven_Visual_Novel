@@ -1,0 +1,89 @@
+{
+    "Cena10":[
+ {
+     "type":2
+},
+{
+   "background":{
+                "link1":"videos/busto_background_corvo2.mp4",
+                "link2":"videos/janela_background.mp4",
+                "link3":"videos/janela_background_sprite8.mp4"
+          }
+},
+{
+    "Fala":{
+        "frase":[
+            {
+                "N1":"Nevermore."
+            }
+        ]  
+    }
+},
+{
+    "narra":{
+       "frase":[
+           {
+               "N1":"Exasperated still,<br> he shrieked."
+           }
+       ]
+   }
+ },
+    {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Prophet!"
+                },
+                {
+                    "N2":"thing of evil!—prophet still,<br> if bird or devil!"
+                },
+                {
+                    "N3":"By that Heaven that bends above us—by<br> that God we both adore—"
+                },
+                {
+                    "N4":"Tell this soul with sorrow laden if, <br>within the distant Aidenn,"
+                },
+                {
+                    "N5":"It shall clasp a sainted maiden<br> whom the angels name Lenore—"
+                },
+                {
+                    "N6":"Clasp a rare and radiant maiden<br> whom the angels name Lenore."
+                }
+        ]  
+    }
+},
+    {
+        "Opcao":{
+            "escolha":[
+                {
+                    "Esc1":"Reply to him."
+                }
+            ]
+    }
+    },
+   {
+    "audio":{
+        "faxa":[
+            {
+                "link1":"voices/cena10/voice36.mp3"
+            },
+            {
+                "link2":"voices/cena10/voice37.mp3"
+            },
+            {
+                "link3":"voices/cena10/voice38.mp3"
+            },
+            {
+                "link4":"voices/cena10/voice39.mp3"
+            },
+            {
+                "link5":"voices/cena10/voice40.mp3"
+            },
+            {
+                "link6":"voices/cena10/voice41.mp3"
+            }
+        ]
+    }
+}
+]
+}

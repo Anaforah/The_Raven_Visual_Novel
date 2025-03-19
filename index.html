@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/indexcss.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <title>The Raven | Visual Novel</title>
+</head>
+<body>
+  <nav class="nav">
+    <p>
+      <strong>Project:</strong> Project 3 — Multimedia Applications<br><br>
+      <strong>Supervised by:</strong><br>
+      Ana Boavida<br>
+      Luís Pereira<br><br>
+      <strong>Programmed by:</strong><br>
+      Alexandre Granjo<br>
+      Ana Sofia Almeida<br><br>
+      <strong>Script by:</strong><br>
+      Clara Moreira<br><br>
+      <strong>Artwork by:</strong><br>
+      Ana Sofia Almeida<br>
+      Clara Moreira<br><br>
+      <strong>Character design by:</strong><br>
+      Clara Moreira<br><br>
+      <strong>Voiced by:</strong><br>
+      Rodrigo Velar
+    </p>
+  </nav>
+
+  <!-- Tela de Carregamento -->
+  <section id="loading-screen" class="loading-screen">
+    <div class="loading-message">
+      <p>Wait a moment...</p>
+      <p>Loading resources for a better experience...</p>
+      <!-- Botão para continuar -->
+      <button id="continue-button" onclick="hideLoadingScreen()">Continuar</button>
+    </div>
+    <script src="js/loading.js"></script>
+  </section>
+
+
+  <section class="desktop">
+    <div id="intro"></div>
+    <div id="interactive"></div>
+    <footer class="Balao_fala"></footer>
+  </section>
+
+  <section class="mobile">
+    <video autoplay loop muted>
+      <source src="videos/rave1.mp4" type="video/mp4">
+    </video>
+    <h2>A versão mobile está indisponível</h2>
+  </section>
+  <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <script type="module" src="js/index.js"></script>
+</body>
+</html>

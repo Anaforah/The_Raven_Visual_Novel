@@ -1,0 +1,84 @@
+{
+    "Cena11":[
+ {
+     "type":2
+},
+{
+   "background":{
+                "link1":"videos/busto_background_corvo2.mp4",
+                "link2":"videos/janela_background.mp4",
+                "link3":"videos/final_background.mp4"
+          }
+},
+{
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Nevermore."
+                }
+            ]  
+        }
+    },
+    {
+        "narra":{
+           "frase":[
+               {
+                   "N1":"He soon shrieked, upstarting."
+               }
+           ]
+       }
+     },
+{
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Be that word our sign of parting,<br> bird or fiend!"
+                },
+                {
+                    "N2":"Get thee back into the tempest<br> and the Night’s Plutonian shore!"
+                },
+                {
+                    "N3":"Leave no black plume<br> as a token of that lie thy soul hath spoken!"
+                },
+                {
+                    "N4":"Leave my loneliness unbroken!—quit<br> the bust above my door!"
+                },
+                {
+                    "N5":"Take thy beak from out my heart,<br> and take thy form from off my door!"
+                }
+            ]  
+        }
+    },
+    {
+        "Opcao":{
+            "escolha":[
+                {
+                    "Esc1":"And his soul from out that shadow that lies floating on the floor<br> Shall be lifted—nevermore!<br><br>THE END"
+                }
+            ]
+    }
+    },
+
+   {
+    "audio":{
+        "faxa":[
+            {
+                "link1":"voices/cena11/voice42.mp3"
+            },
+            {
+                "link2":"voices/cena11/voice43.mp3"
+            },
+            {
+                "link3":"voices/cena11/voice44.mp3"
+            },
+            {
+                "link4":"voices/cena11/voice45.mp3"
+            },
+            {
+                "link5":"voices/cena11/voice46.mp3"
+            }
+        ]
+    }
+}
+]
+}
