@@ -1,0 +1,76 @@
+{
+    "Cena1": [
+        {"type": 1},
+        {
+          "background": {
+            "link1": "videos/1cena.mp4",
+            "link2": "videos/lareira_background_sprite3.mp4",
+            "link3": "videos/lareira_background_sprite5.mp4"
+          }
+        },
+        {
+          "narra": {
+            "frase": [
+              {"N1": "As you peer inside you catch<br> a glimpse of a living room,"},
+              {"N2":"and inside a man nodding,<br> nearly napping, by a crackling fireplace."},
+              {"N3": "Given the careless nature of your prying, <br>you accidentally grazed the surface of his lattice,"},
+              {"N4": "creating a faint tapping, a gentle rapping, <br>causing him to stir and turn."}
+            ]
+          }
+        },
+    {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"’Tis some visitor"
+                }
+
+            ]
+
+    }
+},
+{
+    "Fala":{
+        "frase":[
+            {
+                "N1":"Tapping at my chamber door."
+            },
+            {
+                "N2":"Only this and nothing more."
+            }
+
+        ]
+    }
+},
+{
+    "Opcao":{
+        "escolha":[
+            {
+                "Esc1":"TAP AT HIS WINDOW LATTICE "
+            }
+        ]
+    }
+},
+{
+    "audio":{
+        "faxa":[
+            {
+                "link1":"voices/cena1/voice1.mp3"
+            }
+        ]
+    }
+},
+{
+    "audio":{
+        "faxa":[
+            {
+                "link2":"voices/cena1/voice2.mp3"
+            },
+            {
+                "link3":"voices/cena1/voice3.mp3"
+            }
+        ]
+    }
+}
+]
+}

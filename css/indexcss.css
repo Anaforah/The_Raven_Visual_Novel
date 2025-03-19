@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    body {
+        background-color: #000;
+    }
+
+.desktop{
+  display: none;
+}
+.mobile{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #F4F4F4;
+}
+
+.mobile video {
+  width: 50%; /* Ajusta o tamanho para caber na tela */
+  max-height: 30%; /* Limita a altura */
+}
+.mobile h2 {
+  margin-top: 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+}
+
+@media (min-width: 768px) {
+
+  body, html {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile{
+    display: none;
+  }
+
+/* Estiliza a tela de carregamento */
+.loading-screen {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  font-size: 24px;
+  font-family: 'Cinzel', serif;
+  height: 100vh; /* Ocupa toda a altura da tela */
+  width: 100vw; /* Ocupa toda a largura da tela */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+  color: white;
+  text-align: center;
+}
+
+/* Estiliza a mensagem de carregamento */
+.loading-message {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center;
+  gap: 10px;
+}
+
+/* Estiliza o botão */
+#continue-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+  color: #fff;
+  background-color: #606060;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none; /* O botão só aparece quando os recursos estiverem carregados */
+}
+
+  #continue-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; /* Impede interações com o vídeo */
+    z-index: 1;
+  }
+
+  .Balao_fala {
+    background-color: rgba(244, 244, 244, 0.9);
+    position: fixed; /* Importante para o controle de posicionamento */
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 40%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 40%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    z-index: 2;
+}
+
+.Balao_fala>p {
+  width: 100%; /* Faz o parágrafo ocupar toda a largura do contêiner */
+  display: block; /* Garante que cada parágrafo será um bloco */
+  text-align: center; /* Opcional: alinha o texto ao centro */
+}
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+.texto_narrador{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    color: #323232;
+    z-index: 3;
+}
+
+.texto_personagem{
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 5%;
+  color: #323232;
+  z-index: 3;
+}
+
+.Init_button{
+  position:relative;
+  top:50%;
+  left:50%;
+}
+
+.title{
+  width: "85%";
+  z-index: 5;
+  bottom: 20%; /* Ajuste para controlar a posição vertical, mais próximo do fundo */
+  left: 100%; /* Centraliza horizontalmente */
+  transform: translate(55%, 30%);
+}
+
+.start_button{
+  width:40%;
+  z-index: 6;
+  position:absolute;
+  bottom: 20%; /* Distância do fundo */
+  left: 25%; /* Move o centro do elemento para o meio da tela */
+  transform: translateX(50%); 
+}
+.start_button>img{
+  width:40%;
+}
+
+.image-container {
+  width:70%;
+  height:fit-content;
+  position: fixed; /* Fixa no viewport */
+  top: 40%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta para que o centro da imagem fique no centro da tela */
+  z-index: 9999; /* Garante que fique acima de outros elementos */
+  background-color: transparent;
+  margin:auto;
+}
+
+.button-container{
+  position: fixed; /* Fixa no viewport */
+  bottom: 10%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta para que o centro da imagem fique no centro da tela */
+  z-index: 9999; /* Garante que fique acima de outros elementos */
+  width:fit-content;
+  height: fit-content;
+}
+
+.image-container img {
+  width:100%;
+  height: auto; /* Mantém a proporção da imagem */
+  z-index: 9999;
+  background-color: transparent;
+}
+
+
+.start {
+  width: 160px;
+  height: 160px;
+  background-image: url('../images/Corvo.png');
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+.start:hover {
+  background-image: url('../images/Corvo2.png');
+} 
+
+.choice_section{
+  position:fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: #F4F4F4;
+  box-shadow: inset 0 0 80px rgba(50, 50, 50, 1);
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column; /* Empilha os itens verticalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  gap: 40px; /* Adiciona espaço entre os itens */
+
+  opacity: 0; /* Inicialmente invisível */
+  transform: scale(0.9); /* Levemente menor no início */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+
+}
+
+.choice_paragraph, .choice_or {
+  all: unset;
+  text-decoration: none;
+  color:#323232;
+  display:block;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Cinzel', serif !important;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+
+.choice_paragraph:hover{
+  font-weight: bold;
+}
+
+.choice_section.visible {
+  opacity: 1; /* Totalmente visível */
+  transform: scale(1); /* Escala normal */
+}
+}
+
+.nav {
+  width: 40px;
+  height: 40px;
+  background-image: url('../Images/navbar.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* A imagem cobre toda a área da nav */
+  background-position: center;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  z-index: 9999;
+  transition: width 0.3s ease, height 0.3s ease, padding 0.3s ease; /* Transições suaves para largura, altura e padding */
+  overflow: hidden; /* Esconde o conteúdo adicional */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; /* Fonte */
+  padding: 10px; /* Padding inicial */
+}
+
+/* Efeito de hover */
+.nav:hover {
+  background-image: none; 
+  background-color: #323232;
+  width: 300px; /* Aumenta a largura ao passar o mouse */
+  height: 600px; /* Aumenta a altura ao passar o mouse */
+  padding: 20px; /* Aumenta o padding */
+}
+
+/* Estilo do texto dentro da nav */
+.nav p {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  opacity: 0; /* Inicialmente invisível */
+  transition: opacity 0.3s ease; /* Transição suave para a opacidade */
+  margin: 0; /* Remove margens adicionais */
+}
+
+.nav:hover p {
+  opacity: 1; /* Torna o texto visível quando passar o mouse */
+}

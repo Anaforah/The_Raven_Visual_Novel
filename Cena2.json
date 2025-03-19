@@ -1,0 +1,72 @@
+{
+    "Cena2": [
+      {
+        "type": 1
+      },
+      {
+        "background": {
+          "link1": "videos/lareira_background.mp4",
+          "link2": "videos/lareira_background_sprite5.mp4"
+        }
+      },
+      {
+        "narra": {
+          "frase": [
+            {"N1": "As each separate dying ember<br> wrought its ghost upon the floor,"},
+            {"N2": "you can sense the eagerness<br> in which he aches for the morrow."},
+            {"N3": "How vainly he longs to borrow,<br> from his books surcease of sorrow,"},
+            {"N4": "sorrow for a lost and radiant maiden<br> whom the angels named—"},
+            {"N5": "Lenore."},
+            {"N6": "Nameless here for evermore."},
+            {"N7": "Given your tapping,<br>you can hear the man muttering again from the inside."}
+          ]
+        }
+      },
+      {
+        "Fala": {
+          "frase": [
+            {"N1": "’Tis some visitor <br>entreating entrance at my chamber door"},
+            {"N2": "Some late visitor <br>entreating entrance at my chamber door"}
+          ]
+        }
+      },
+
+      {
+        "Fala": {
+          "frase": [
+            {"N1": "This it is and nothing more."}
+          ]
+        }
+      },
+      {
+        "Opcao": {
+          "escolha": [
+            {"Esc1": "TAP AT HIS WINDOW LATTICE AGAIN."},
+            {"Esc2": "DO NOTHING."}
+          ]
+        }
+      },
+      {
+          "audio":{
+              "faxa":[
+                  {
+                      "link1":"voices/cena2/voice4.mp3"
+                  },
+                  {
+                      "link2":"voices/cena2/voice5.mp3"
+                  }
+              ]
+          }
+      },
+      {
+        "audio":{
+            "faxa":[
+                {
+                    "link3":"voices/cena2/voice6.mp3"
+                }
+            ]
+        }
+    }
+    ]
+  }
+  

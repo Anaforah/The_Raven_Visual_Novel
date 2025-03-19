@@ -1,0 +1,83 @@
+{
+    "Cena5":[
+      {
+          "type":2
+      },
+
+      {
+          "background":{
+            "link1":"videos/ilustracao_porta.mp4",
+            "link2":"videos/lareira_background.mp4",
+            "link3":"videos/lareira_background_sprite3.mp4"
+          }
+           },
+           {
+          "Fala":{
+              "frase":[
+                  {
+                      "N1":"Lenore!"
+                  }
+              ]  
+          }
+      },
+      {
+         "narra":{
+            "frase":[
+                {
+                    "N1":"Back into the chamber turning, <br>you can sense his soul burning from within."
+                }
+            ]
+        }
+      },
+    {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Surely, <br>surely that is something at my window lattice..."
+                },
+                {
+                    "N2":"Let me see, then, <br>what thereat is, and this mystery explore—"
+                },
+                {
+                    "N3":"Let my heart be still a moment<br> and this mystery explore—"
+                },
+                {
+                    "N4":"’Tis the wind and nothing more!"
+                }
+            ]  
+        }
+    },
+      {
+          "Opcao":{
+              "escolha":[
+                  {
+                      "Esc1":"TAP AGAIN, THIS TIME LOUDER"
+                  },
+                  {
+                      "Esc2":"ATTEMPT TO HIDE"
+                  }
+      
+              ]
+      
+      }
+      },
+     {
+        "audio":{
+            "faxa":[
+                {
+                    "link1":"voices/cena5/voice13.mp3"
+                },
+                {
+                    "link2":"voices/cena5/voice14.mp3"
+                },
+                {
+                    "link3":"voices/cena5/voice15.mp3"
+                },
+                {
+                    "link4":"voices/cena5/voice16.mp3"
+                }
+            ]
+        }
+    }
+  ]
+}

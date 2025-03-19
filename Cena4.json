@@ -1,0 +1,87 @@
+{
+    "Cena4":[
+      {
+          "type":1
+      },
+      {
+          "background":{
+            "link1":"videos/ilustracao_porta.mp4"
+          }
+           },
+      {
+         "narra":{
+          "frase":[
+              {
+                  "N1":"He opens the door wide<br> only to be greeted by darkness"
+              },
+              {
+                  "N2":"Darkness and nothing more."
+              },
+              {
+                  "N3":"Deep into that darkness he peered,<br>long he stood there"
+              },
+              {
+                  "N4":"wondering, fearing,"
+              },
+              {
+                  "N5":"Doubting, dreaming dreams<br> no mortal ever dared to dream before."
+              },
+              {
+                  "N6":"But you stood silent,<br> not daring to break the established stillness."
+              },
+              {
+                  "N7":"And the only word spoken from his parted lips<br> was the whispered word:"
+              }
+          ]
+      } 
+      },
+      {
+          "Fala":{
+              "frase":[
+                  {
+                      "N1":"..."
+                  }
+              ]  
+          }
+      },
+
+      {
+        "Fala":{
+            "frase":[
+                {
+                    "N1":"Lenore?"
+                }
+            ]  
+        }
+    },
+      {
+          "Opcao":{
+              "escolha":[
+                  {
+                      "Esc1":"ECHO BACK THE NAME OF THE LOST AND RADIANT MAIDEN."
+                  }
+      
+              ]
+      
+      }
+      },
+      {
+         "audio":{
+             "faxa":[
+                 {
+                     "link1":""
+                 }
+             ]
+         }
+     },
+     {
+        "audio":{
+            "faxa":[
+                {
+                    "link1":"voices/cena4/voice12.mp3"
+                }
+            ]
+        }
+    }
+    ]
+}

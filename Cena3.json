@@ -1,0 +1,87 @@
+{
+    "Cena3":[
+  {
+      "type":1
+ },
+ {
+    "background": {
+      "link1":"videos/lareira_background.mp4",
+      "link2":"videos/lareira_background_sprite4.mp4"
+    }
+ },
+ {
+    "narra":{
+       "frase":[
+           {
+               "N1":"Soon, he calls out again."
+           }
+       ]
+   }
+ },
+ {
+     "Fala":{
+         "frase":[
+             {
+                 "N1":"Sir"
+             },
+             {
+                 "N2":"or Madam, <br>truly your forgiveness I implore,"
+             },
+             {
+                 "N3":"But the fact is I was napping,<br> and so gently you came rapping,"
+             }
+         ]  
+     }
+ },
+ {
+    "Fala":{
+        "frase":[
+            {
+                "N1":"And so faintly you came tapping,<br>tapping at my chamber door,"
+            },
+            {
+                "N2":"That I scarce was sure I heard you."
+            }
+        ]  
+    }
+},
+ {
+     "Opcao":{
+         "escolha":[
+             {
+                 "Esc1":"TAP AT HIS WINDOW LATTICE"
+             }
+ 
+         ]
+ 
+ }
+ },
+ {
+    "audio":{
+        "faxa":[
+            {
+                "link1":"voices/cena3/voice7.mp3"
+            },
+            {
+                "link2":"voices/cena3/voice8.mp3"
+            },
+            {
+                "link3":"voices/cena3/voice9.mp3"
+            }
+        ]
+    }
+},
+{
+    "audio":{
+        "faxa":[
+            {
+                "link4":"voices/cena3/voice10.mp3"
+            },
+            {
+                "link5":"voices/cena3/voice11.mp3"
+            }
+        ]
+    }
+}
+ ]
+}

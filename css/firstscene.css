@@ -1,0 +1,46 @@
+.choice_section{
+    position:fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #F4F4F4;
+    box-shadow: inset 0 0 80px rgba(50, 50, 50, 1);
+
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    gap: 40px; /* Adiciona espaço entre os itens */
+
+    opacity: 0; /* Inicialmente invisível */
+    transform: scale(0.9); /* Levemente menor no início */
+    transition: opacity 0.8s ease, transform 0.8s ease; 
+
+}
+
+.choice_paragraph, .choice_or {
+    text-decoration: none;
+    color:#323232;
+    display:block;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.choice_paragraph:hover{
+    font-weight: bold;
+}
+
+.choice_section.visible {
+    opacity: 1; /* Totalmente visível */
+    transform: scale(1); /* Escala normal */
+}
+
+.texto_narrador_left {
+    text-align: left; /* Novo alinhamento à esquerda */
+}
